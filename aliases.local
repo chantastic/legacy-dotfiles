@@ -1,0 +1,19 @@
+# system
+alias c='clear'
+alias ea='e ~/.aliases.local'
+alias eg='e ~/.gitconfig.local'
+alias ev='e ~/.vimrc.local'
+alias ez='e ~/.zshrc.local'
+alias src='source ~/.zshrc'
+
+# PCO Apps
+alias pca='cd ~/code/accounts'
+alias pcc='cd ~/code/check-ins'
+alias pci='cd ~/code/interfaces'
+alias pcp='cd ~/code/people'
+alias pcrg='cd ~/code/registrations'
+alias pcrs='cd ~/code/resources'
+alias pcs='cd ~/code/services'
+
+# sites
+alias slr='cd ~/sites/learnreact'
