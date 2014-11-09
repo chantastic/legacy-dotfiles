@@ -19,3 +19,15 @@ alias pcs='cd ~/code/services'
 
 # sites
 alias slr='cd ~/sites/learnreact'
+
+# git
+alias gap='git add -p'
+alias gco='git checkout'
+alias gd='git diff'
+alias gds='git diff --staged'
+alias gg='git lg'
+alias gp='git push'
+alias gl='git pull'
+alias gpf='git push -f'
+alias grc='git rebase --continue'
+alias gsq='git rebase -i master'
