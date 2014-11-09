@@ -8,7 +8,9 @@ alias src='source ~/.zshrc'
 
 # PCO Apps
 alias pca='cd ~/code/accounts'
-alias pcc='cd ~/code/check-ins'
+alias pcb='cd ~/code/pco-box'
+alias pcci='cd ~/code/check-ins'
+alias pccc='cd ~/code/church-center'
 alias pci='cd ~/code/interfaces'
 alias pcp='cd ~/code/people'
 alias pcrg='cd ~/code/registrations'
