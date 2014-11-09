@@ -1,6 +1,9 @@
 " Leader
 let mapleader = ","
 
+" Credit: Just about everything good in here is from r00ks dotfiles
+" https://github.com/r00k/dotfiles/blob/master/vimrc
+
 " Edit another file in the same directory as the current file
 " uses expression to extract path from current file's path
 map <Leader>e :e <C-R>=escape(expand("%:p:h"),' ') . '/'<CR>
@@ -11,6 +14,11 @@ map <Leader>v :vnew <C-R>=escape(expand("%:p:h"), ' ') . '/'<CR>
 " (e.g. in .bashrc or .zshrc)
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
+
+" (Hopefully) removes the delay when hitting esc in insert mode
+set noesckeys
+set ttimeout
+set ttimeoutlen=1
 
 " Formatting of stupid CJSX
 autocmd BufNewFile,BufRead *.cjsx set filetype=coffee
