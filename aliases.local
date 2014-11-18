@@ -25,8 +25,11 @@ alias pcs='cd ~/code/services'
 alias slr='cd ~/sites/learnreact'
 
 # git
+alias gaa='git add --all'
 alias gap='git add -p'
+alias gb='git branch'
 alias gco='git checkout'
+alias gc='git commit -v'
 alias gd='git diff'
 alias gds='git diff --staged'
 alias gg='git lg'
