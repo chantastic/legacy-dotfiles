@@ -1,3 +1,7 @@
+# overrides
+
+alias t='t'
+
 # system
 alias c='clear'
 alias ea='e ~/.aliases.local'
@@ -31,3 +35,7 @@ alias gl='git pull'
 alias gpf='git push -f'
 alias grc='git rebase --continue'
 alias gsq='git rebase -i master'
+
+# dropbox
+alias dr='cd ~/Dropbox'
+alias et='e ~/Dropbox/notes/todo.txt'

@@ -1,0 +1,9 @@
+# No arguments: `cat todo.txt`
+# With arguments: acts like `append line to todo.txt`
+t() {
+  if [[ $# > 0 ]]; then
+    echo $@ >> ~/Dropbox/notes/todo.txt
+  else
+    cat ~/Dropbox/notes/todo.txt
+  fi
+}
