@@ -2,6 +2,9 @@
 
 alias t='t'
 
+# vars
+alias branch='git symbolic-ref --short -q HEAD 2>/dev/null'
+
 # system
 alias c='clear'
 alias ea='e ~/.aliases.local'
