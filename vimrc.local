@@ -30,8 +30,9 @@ set noesckeys
 set ttimeout
 set ttimeoutlen=1
 
-" Formatting of stupid CJSX
+" File associations
 autocmd BufNewFile,BufRead *.cjsx set filetype=coffee
+autocmd BufRead,BufNewFile *.es6 setfiletype javascript
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RENAME CURRENT FILE (thanks Gary Bernhardt)
