@@ -1,0 +1,4 @@
+# http://brettterpstra.com/2014/05/10/bash-and-dash/#comment-1379846303
+dash() {
+  open "dash://$*"
+}
