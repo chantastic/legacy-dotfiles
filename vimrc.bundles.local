@@ -1,3 +1,4 @@
 Plugin 'rking/ag.vim'
 Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'rizzatti/dash.vim'
