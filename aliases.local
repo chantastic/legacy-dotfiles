@@ -7,11 +7,13 @@ alias branch='git symbolic-ref --short -q HEAD 2>/dev/null'
 
 # system
 alias c='clear'
+alias src='source ~/.zshrc'
+
+# config aliases
 alias ea='e ~/.aliases.local'
 alias eg='e ~/.gitconfig.local'
 alias ev='e ~/.vimrc.local'
 alias ez='e ~/.zshrc.local'
-alias src='source ~/.zshrc'
 
 # PCO Apps
 alias pca='cd ~/code/accounts'
