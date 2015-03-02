@@ -11,6 +11,7 @@ alias src='source ~/.zshrc'
 
 # config aliases
 alias ea='e ~/.aliases.local'
+alias ee='e ~/.emacs.d/init.el'
 alias eg='e ~/.gitconfig.local'
 alias ev='e ~/.vimrc.local'
 alias ez='e ~/.zshrc.local'
