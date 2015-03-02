@@ -15,6 +15,11 @@ alias eg='e ~/.gitconfig.local'
 alias ev='e ~/.vimrc.local'
 alias ez='e ~/.zshrc.local'
 
+# PCO Box
+alias pbb='pco box bundle'
+alias pbbui='pco box bundle update interfaces'
+alias pbr='pco box apprestart'
+
 # PCO Apps
 alias pca='cd ~/code/accounts'
 alias pcb='cd ~/code/pco-box'
