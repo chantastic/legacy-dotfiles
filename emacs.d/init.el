@@ -43,3 +43,14 @@
 ;; http://ergoemacs.org/emacs/emacs_delete_trailing_whitespace.html
 (setq whitespace-style (quote
   (face tabs trailing empty)))
+
+;; projectile
+;; http://batsov.com/projectile/
+(projectile-global-mode)
+
+;; Indentation(all): 2 spaces, never tabs
+;; https://github.com/seven1m/.emacs.d/blob/master/init.el#L207-L211
+(setq-default
+  tab-width 2
+  indent-tabs-mode nil
+  evil-shift-width 2)
