@@ -3,6 +3,7 @@ Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'rizzatti/dash.vim'
 Plugin 'moll/vim-node'
+Plugin 'osyo-manga/vim-over'
 
 " JSX Highlighting
 Plugin 'pangloss/vim-javascript'
