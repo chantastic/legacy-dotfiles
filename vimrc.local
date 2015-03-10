@@ -37,6 +37,9 @@ autocmd BufRead,BufNewFile *.es6 setfiletype javascript
 " Hightlight all JS files as JSX
 let g:jsx_ext_required = 0
 
+" Enable es-lint javastcript checker
+let g:syntastic_javascript_checkers = ['eslint']
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RENAME CURRENT FILE (thanks Gary Bernhardt)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
