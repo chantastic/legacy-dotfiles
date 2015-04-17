@@ -15,5 +15,9 @@ stty stop undef
 # pco command line tool
 eval "$(~/code/pco/bin/pco init -)"
 
+# rundeck.planningcenteronline.com
+export RUNDECK_API_TOKEN=YWTWEvOvBVREWlytOCEN1nOtDFqeuNu5
+export RUNDECK_BROWSERIFY=true
+
 # undo funky thoughtbot vim keybindings
 bindkey -e

@@ -8,3 +8,9 @@ Plugin 'osyo-manga/vim-over'
 " JSX Highlighting
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+
+" SnipMate
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
