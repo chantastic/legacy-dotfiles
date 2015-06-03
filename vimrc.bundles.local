@@ -5,6 +5,8 @@ Plugin 'rizzatti/dash.vim'
 Plugin 'moll/vim-node'
 Plugin 'osyo-manga/vim-over'
 
+Plugin 'git://github.com/miripiruni/CSScomb-for-Vim.git'
+
 " JSX Highlighting
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
