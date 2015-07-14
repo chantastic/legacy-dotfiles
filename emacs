@@ -6,3 +6,6 @@
 
 (setq package-enable-at-startup nil)
 (package-initialize)
+
+(require 'evil)
+(evil-mode t)
