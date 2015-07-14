@@ -1,18 +1,20 @@
-Plugin 'rking/ag.vim'
-Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'rizzatti/dash.vim'
-Plugin 'moll/vim-node'
-Plugin 'osyo-manga/vim-over'
+Plug 'rking/ag.vim'
+Plug 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'rizzatti/dash.vim'
+Plug 'moll/vim-node'
+Plug 'osyo-manga/vim-over'
 
-Plugin 'git://github.com/miripiruni/CSScomb-for-Vim.git'
+Plug 'git://github.com/miripiruni/CSScomb-for-Vim.git'
 
 " JSX Highlighting
-Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+
+" Stylesheet Highlighting
 
 " SnipMate
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
+Plug 'honza/vim-snippets'
