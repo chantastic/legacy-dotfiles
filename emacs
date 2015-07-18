@@ -9,3 +9,7 @@
 
 (require 'evil)
 (evil-mode t)
+
+(require 'helm) ; required for custamizations
+(require 'helm-config)
+(helm-mode 1)
