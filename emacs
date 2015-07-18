@@ -19,3 +19,6 @@
 (helm-projectile-on)
 
 (add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . js2-mode))
+
+; magit
+(global-set-key (kbd "C-x g") 'magit-status)
