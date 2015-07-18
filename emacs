@@ -13,3 +13,7 @@
 (require 'helm) ; required for custamizations
 (require 'helm-config)
 (helm-mode 1)
+
+(projectile-global-mode)
+(setq projectile-completion-system 'helm)
+(helm-projectile-on)
