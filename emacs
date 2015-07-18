@@ -17,3 +17,5 @@
 (projectile-global-mode)
 (setq projectile-completion-system 'helm)
 (helm-projectile-on)
+
+(add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . js2-mode))
