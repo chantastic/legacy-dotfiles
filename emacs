@@ -22,3 +22,6 @@
 
 ; magit
 (global-set-key (kbd "C-x g") 'magit-status)
+
+; theme
+(load-theme 'base16-tomorrow-dark t)
