@@ -29,3 +29,6 @@
 
 ; theme
 (load-theme 'base16-tomorrow-dark t)
+
+; flycheck
+(add-hook 'after-init-hook #'global-flycheck-mode)
