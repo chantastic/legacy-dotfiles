@@ -7,42 +7,42 @@
 (setq package-enable-at-startup nil)
 (package-initialize)
 
-; custom-file
+;;; custom-file
 (setq custom-file "~/.custom.el")
 (load custom-file)
 
-; evil
+;;; evil
 (require 'evil)
 (evil-mode t)
 
-; helm
+;;; helm
 (require 'helm) ; required for custamizations
 (require 'helm-config)
 (helm-mode 1)
 
-; projectile
+;;; projectile
 (projectile-global-mode)
 (setq projectile-completion-system 'helm)
 (helm-projectile-on)
 
-; js2
+;;; js2
 (add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . js2-mode))
 
-; magit
+;;; magit
 (global-set-key (kbd "C-x g") 'magit-status)
 
-; theme
+;;; theme
 (load-theme 'base16-tomorrow-dark t)
 
-; flycheck
+;;; flycheck
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
-; markdown
+;;; markdown
 (autoload 'markdown-mode "markdown-mode"
    "Major mode for editing Markdown files" t)
    (add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
    (add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
    (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 
-; org
+;;; org
 ;; (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
