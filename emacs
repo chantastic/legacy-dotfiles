@@ -7,17 +7,21 @@
 (setq package-enable-at-startup nil)
 (package-initialize)
 
+; evil
 (require 'evil)
 (evil-mode t)
 
+; helm
 (require 'helm) ; required for custamizations
 (require 'helm-config)
 (helm-mode 1)
 
+; projectile
 (projectile-global-mode)
 (setq projectile-completion-system 'helm)
 (helm-projectile-on)
 
+; js2
 (add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . js2-mode))
 
 ; magit
