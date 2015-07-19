@@ -7,6 +7,10 @@
 (setq package-enable-at-startup nil)
 (package-initialize)
 
+; custom-file
+(setq custom-file "~/.custom.el")
+(load custom-file)
+
 ; evil
 (require 'evil)
 (evil-mode t)
