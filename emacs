@@ -30,6 +30,7 @@
 
 ;;; js2
 (add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . js2-mode))
+(setq js-indent-level 2)
 
 ;;; magit
 (global-set-key (kbd "C-x g") 'magit-status)
