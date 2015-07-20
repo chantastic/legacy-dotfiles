@@ -11,6 +11,9 @@
 (setq custom-file "~/.custom.el")
 (load custom-file)
 
+;;; emacs
+(menu-bar-mode -1)
+
 ;;; evil
 (require 'evil)
 (evil-mode t)
