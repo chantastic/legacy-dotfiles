@@ -53,3 +53,8 @@
 
 ;;; org
 ;; (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+
+;;; key-chord
+(require 'key-chord)
+(key-chord-mode 1)
+(key-chord-define evil-insert-state-map  "jk" 'evil-normal-state)
