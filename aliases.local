@@ -52,4 +52,4 @@ alias gsq='git rebase -i'
 
 # dropbox
 alias dr='cd ~/Dropbox'
-alias et='e ~/Dropbox/notes/todo.txt'
+alias et='e ~/Dropbox/notes/todo.org'
