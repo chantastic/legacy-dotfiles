@@ -33,6 +33,7 @@
 
 ;;; js2
 (add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . js2-mode))
+(setq-default indent-tabs-mode nil)
 (setq js-indent-level 2)
 
 ;;; magit
