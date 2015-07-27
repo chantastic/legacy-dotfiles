@@ -66,3 +66,7 @@
 
 ;;; aggressive-indent
 (global-aggressive-indent-mode)
+
+;;; backups: off
+;; http://stackoverflow.com/questions/151945/how-do-i-control-how-emacs-makes-backup-files#answer-151946
+(setq make-backup-files nil)
