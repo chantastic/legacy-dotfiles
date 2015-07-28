@@ -16,6 +16,7 @@
 
 (global-linum-mode t)
 (setq linum-format "%3d ")
+(setq auto-save-default nil) ; autosave: off
 
 ;;; evil
 (require 'evil)
