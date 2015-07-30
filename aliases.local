@@ -1,12 +1,13 @@
 # overrides
-
 alias t='t'
 
 # vars
 alias branch='git symbolic-ref --short -q HEAD 2>/dev/null'
 
 # system
+alias ...="../.."
 alias c='clear'
+alias l="ls"
 alias src='source ~/.zshrc'
 
 # config aliases
