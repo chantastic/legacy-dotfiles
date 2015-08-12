@@ -4,3 +4,6 @@
 [user]
   name = Michael Chan
   email = mijoch@gmail.com
+
+[commit]
+  template = ~/.gitmessage.local
