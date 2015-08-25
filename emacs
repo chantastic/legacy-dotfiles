@@ -81,3 +81,6 @@
 ;; http://ergoemacs.org/emacs/emacs_delete_trailing_whitespace.html
 (setq whitespace-style (quote
   (face tabs trailing empty)))
+
+;; auto-complete
+(global-auto-complete-mode t)
