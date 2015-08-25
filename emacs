@@ -68,8 +68,6 @@
 (key-chord-mode 1)
 (key-chord-define evil-insert-state-map  "jk" 'evil-normal-state)
 
-;;; aggressive-indent
-(global-aggressive-indent-mode)
 
 ;;; backups: off
 ;; http://stackoverflow.com/questions/151945/how-do-i-control-how-emacs-makes-backup-files#answer-151946
