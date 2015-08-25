@@ -13,12 +13,15 @@
 
 ;;; emacs
 (menu-bar-mode -1)
+(setq-default indent-tabs-mode nil)
+(setq tab-width 2)
 
 (global-linum-mode t)
 (setq linum-format "%3d ")
 (setq auto-save-default nil) ; autosave: off
 
 ;;; evil
+(setq evil-shift-width 2)
 (require 'evil)
 (evil-mode t)
 
@@ -38,11 +41,11 @@
 
 ;;; js2
 ;(add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . js2-mode))
-;(setq-default indent-tabs-mode nil)
-;(setq js-indent-level 2)
+;(setq-default js2-basic-offset 2)
 
 ;;; js
 (add-to-list 'auto-mode-alist '("\\.js[x]?\\'" . js-mode))
+(setq js-indent-level 2)
 
 ;;; magit
 (global-set-key (kbd "C-x g") 'magit-status)
