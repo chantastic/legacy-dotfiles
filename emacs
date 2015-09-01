@@ -20,6 +20,8 @@
 (setq linum-format "%3d ")
 (setq auto-save-default nil) ; autosave: off
 
+(global-set-key (kbd "C-c C-c") 'comment-line)
+
 ;;; evil
 (setq evil-shift-width 2)
 (require 'evil)
