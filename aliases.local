@@ -42,6 +42,7 @@ alias slr="cd ~/sites/learnreact"
 # git
 alias gaa="git add --all"
 alias gap="git add -p"
+alias gbdm="git branch -D $(git branch --merged)"
 alias gb="git branch"
 alias gco="git checkout"
 alias gc="git commit -v"
