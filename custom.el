@@ -7,7 +7,7 @@
  '(magit-log-arguments (quote ("--graph" "--color" "--decorate")))
  '(package-selected-packages
    (quote
-    (yasnippet sass-mode helm-ag helm-projectile coffee-mode auto-complete evil-surround key-chord web-mode org-plus-contrib markdown-mode magit jsx-mode js2-mode flycheck evil base16-theme)))
+    (editorconfig yasnippet sass-mode helm-ag helm-projectile coffee-mode auto-complete evil-surround key-chord web-mode org-plus-contrib markdown-mode magit jsx-mode js2-mode flycheck evil base16-theme)))
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil))
 (custom-set-faces

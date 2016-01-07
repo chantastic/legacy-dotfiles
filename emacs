@@ -97,3 +97,8 @@
 
 ;;; yasnippet
 (yas-global-mode 1)
+
+;;; editorconfig
+(add-to-list 'load-path "~/.emacs.d/lisp")
+(load "editorconfig")
+(editorconfig-mode 1)
