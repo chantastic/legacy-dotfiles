@@ -7,3 +7,6 @@
 
 [commit]
   template = ~/.gitmessage.local
+
+[diff]
+  compactionHeuristic = true
