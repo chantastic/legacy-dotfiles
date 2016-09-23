@@ -21,3 +21,5 @@ export RUNDECK_BROWSERIFY=true
 
 # undo funky thoughtbot vim keybindings
 bindkey -e
+eval "$(rbenv init - --no-rehash zsh)"
+eval "$(rbenv init - --no-rehash)"

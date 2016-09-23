@@ -15,9 +15,24 @@
 (menu-bar-mode -1)
 (setq-default indent-tabs-mode nil)
 (setq tab-width 2)
+(global-font-lock-mode 0) ; turn highlighting off
+(set-face-attribute 'default t :font "Hasklig" )
 
-(global-linum-mode t)
-(setq linum-format "%3d ")
+;https://www.emacswiki.org/emacs/MoveLine
+(defun move-line-up ()
+  (interactive)
+  (transpose-lines 1)
+  (forward-line -2))
+(global-set-key (kbd "M-<up>") 'move-line-up)
+(defun move-line-down ()
+  (interactive)
+  (forward-line 1)
+  (transpose-lines 1)
+  (forward-line -1))
+(global-set-key (kbd "M-<down>") 'move-line-down)
+
+;(global-linum-mode t)
+;(setq linum-format "%3d ")
 (setq auto-save-default nil) ; autosave: off
 
 (global-set-key (kbd "C-c C-c") 'comment-line)
@@ -53,10 +68,8 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 
 ;;; theme
-(load-theme 'base16-tomorrow-dark t)
-
-;;; flycheck
-(add-hook 'after-init-hook #'global-flycheck-mode)
+;(load-theme 'base16-pop-dark t)
+(load-theme 'twilight-bright t)
 
 ;;; markdown
 (autoload 'markdown-mode "markdown-mode"
@@ -67,12 +80,6 @@
 
 ;;; org
 ;; (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
-
-;;; key-chord
-(require 'key-chord)
-(key-chord-mode 1)
-(key-chord-define evil-insert-state-map  "jk" 'evil-normal-state)
-
 
 ;;; backups: off
 ;; http://stackoverflow.com/questions/151945/how-do-i-control-how-emacs-makes-backup-files#answer-151946
@@ -102,3 +109,21 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
 (load "editorconfig")
 (editorconfig-mode 1)
+
+;;; package development
+(add-to-list 'load-path "~/oss/es-react-snippets.el")
+(require 'es-react-snippets)
+
+;;; projectile-rails
+(add-hook 'projectile-mode-hook 'projectile-rails-on)
+
+; REMOVED
+
+;; web-mode
+;; http://cha1tanya.com/2015/06/20/configuring-web-mode-with-jsx.html
+;(require 'web-mode)
+;(add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
+;(add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
+;(setq web-mode-content-types-alist
+;  '(("jsx" . "\\.js[x]?\\'")))
+
