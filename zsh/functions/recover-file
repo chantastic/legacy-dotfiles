@@ -1,9 +1,0 @@
-# No arguments: `recover-file requires a filename as an argument`
-# With arguments: recovers the last revision of deleted file with passed name
-recover-file() {
-  if [[ $# > 0 ]]; then
-    git checkout $(git rev-list -n 1 HEAD -- "$1")^ -- "$1"
-  else
-    echo "recover-file requires a filename as an argument"
-  fi
-}

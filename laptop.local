@@ -1,3 +1,0 @@
-#!/bin/sh
-
-brew_install_or_upgrade 'emacs'

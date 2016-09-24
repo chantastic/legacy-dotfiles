@@ -1,6 +1,0 @@
-new_post () {
-  if [[ $# > 0 ]]; then
-    date = $(date +"%Y-%m-%d")
-    vim $date-$@.markdown
-  fi
-}
